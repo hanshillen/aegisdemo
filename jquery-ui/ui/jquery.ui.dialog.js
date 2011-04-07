@@ -217,7 +217,7 @@ $.widget("ui.dialog", {
 
             self.uiDialogTitlebar.trigger(downEvent);
             self.uiDialogTitlebar.trigger(moveEvent);
-            //self.uiDialogTitlebar.trigger(upEvent);
+            self.uiDialogTitlebar.trigger(upEvent);
             event.stopPropagation();
             return false;
         })
